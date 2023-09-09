@@ -3,7 +3,7 @@ package login.pojo;
 public class dados {
 	
 	private String usuario;
-	private String idade;
+	private String senha;
 	
 	public String getUsuario() {
 		return usuario;
@@ -11,12 +11,13 @@ public class dados {
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
-	public String getIdade() {
-		return idade;
+	public String getSenha() {
+		return senha;
 	}
-	public void setIdade(String string) {
-		this.idade = string;
+	public void setSenha(String senha) {
+		this.senha = senha;
 	}
+	
 	
 	
 
